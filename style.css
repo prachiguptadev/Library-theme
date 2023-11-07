@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+header > .logo {
+  float: left;
+  margin: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+header > nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+header > nav > ul > li {
+  float: left;
+  padding-right: 1rem;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+header > nav > ul {
+  list-style: none;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
