@@ -113,3 +113,12 @@ main > .contact-form > form > button {
   margin-left: 33rem;
   width: 30vw;
 }
+footer {
+  margin-top: 8rem;
+  padding: 1.5rem;
+  background-color: gray;
+  color: #eaeaea;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 18px;
+}
